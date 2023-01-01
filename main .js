@@ -4,3 +4,4 @@
 //   return n % 2 == 0;
 // }
 // console.log(isEven(24));
+// another example
