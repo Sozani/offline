@@ -23,11 +23,13 @@
 //   }
 // }
 // console.log(isOdd(23));
-const iterable = [0, 1, 2];
-for (let i of iterable) {
-  console.log(i);
-}
-const string = "abcdef";
-for (let i of string) {
-  console.log(i);
-}
+// const iterable = [0, 1, 2];
+// for (let i of iterable) {
+//   console.log(i);
+// }
+// const string = "abcdef";
+// for (let chr of string) {
+//   console.log(chr);
+// }
+const names = ["bob", "som", "rom", "rom"];
+console.log([...new Set(names)]);
