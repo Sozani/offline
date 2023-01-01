@@ -15,11 +15,15 @@
 // console.log(isOdd(23));
 
 // You can check the (integer) number's parity in much more effective and simple manner
-function isOdd(n) {
-  if (n & 1) {
-    console.log("ODD !");
-  } else {
-    console.log("Even !");
-  }
+// function isOdd(n) {
+//   if (n & 1) {
+//     console.log("ODD !");
+//   } else {
+//     console.log("Even !");
+//   }
+// }
+// console.log(isOdd(23));
+const iterable = [0, 1, 2];
+for (let i of iterable) {
+  console.log(i);
 }
-console.log(isOdd(23));
