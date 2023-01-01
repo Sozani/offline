@@ -1,3 +1,5 @@
+// Real world example : Number's parity check
+
 // function isEven(n) {
 //   return n % 2 == 0;
 // }
