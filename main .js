@@ -27,3 +27,7 @@ const iterable = [0, 1, 2];
 for (let i of iterable) {
   console.log(i);
 }
+const string = "abcdef";
+for (let i of string) {
+  console.log(i);
+}
