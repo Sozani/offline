@@ -42,6 +42,10 @@
 //   console.log(name);
 // }
 // immediately invoked function EXpressions.
-(function () {
-  console.log("This is iif too");
-})();
+// (function () {
+//   console.log("This is iif too");
+// })();
+// You can easily pass parameters into an iife:
+(function (message) {
+  alert(message);
+})("Hello World");
