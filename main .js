@@ -60,3 +60,5 @@
 //   throw error;
 // })();
 // I try this code above but it rejected
+// Arrow version of immediately invoked function version >= 6
+(() => console.log("Hello!"))();
