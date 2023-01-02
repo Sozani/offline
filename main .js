@@ -46,6 +46,12 @@
 //   console.log("This is iif too");
 // })();
 // You can easily pass parameters into an iife:
-(function (message) {
-  alert(message);
-})("Hello World");
+// (function (message) {
+//   alert(message);
+// })("Hello World");
+// Additionally, you can return values to the surrounding scope
+let example = (function () {
+  return 42;
+})();
+console.log(example);
+//Expected output 42
