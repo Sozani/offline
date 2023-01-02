@@ -32,4 +32,8 @@
 //   console.log(chr);
 // }
 const names = ["bob", "som", "rom", "rom"];
-console.log([...new Set(names)]);
+// console.log([...new Set(names)]);
+const uniqueNames = new Set(names);
+for (let name of uniqueNames) {
+  console.log(name);
+}
