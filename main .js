@@ -50,8 +50,13 @@
 //   alert(message);
 // })("Hello World");
 // Additionally, you can return values to the surrounding scope
-let example = (function () {
-  return 42;
-})();
-console.log(example);
+// let example = (function () {
+//   return 42;
+// })();
+// console.log(example);
 //Expected output 42
+// it is possible to name an IIfe,this pattern has several advantages,such as providing a reference which can be used for a recursion and can make debugging simpler as the name is included.
+// (function namedIIFE() {
+//   throw error;
+// })();
+// I try this code above but it rejected
