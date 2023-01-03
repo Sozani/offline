@@ -84,3 +84,4 @@ function reverseString(str) {
 }
 console.log(reverseString(1337));
 console.log(reverseString("stackoverflow"));
+console.log(reverseString([1, 2, 3, 4]));
