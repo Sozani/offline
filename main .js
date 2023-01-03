@@ -13,6 +13,7 @@
 //     return true;
 //   }
 // }
+
 // console.log(isOdd(23));
 
 // You can check the (integer) number's parity in much more effective and simple manner
@@ -41,18 +42,23 @@
 // for (let name of uniqueNames) {
 //   console.log(name);
 // }
+
+// console.log([...new Set(names)]);
 // immediately invoked function EXpressions.
 // (function () {
 //   console.log("This is iif too");
 // })();
+
 // You can easily pass parameters into an iife:
 // (function (message) {
 //   alert(message);
 // })("Hello World");
+
 // Additionally, you can return values to the surrounding scope
 // let example = (function () {
 //   return 42;
 // })();
+
 // console.log(example);
 //Expected output 42
 // it is possible to name an IIfe,this pattern has several advantages,such as providing a reference which can be used for a recursion and can make debugging simpler as the name is included.
@@ -61,4 +67,5 @@
 // })();
 // I try this code above but it rejected
 // Arrow version of immediately invoked function version >= 6
-(() => console.log("Hello!"))();
+// (() => console.log("Hello!"))();
+//string tool not work below I will try toString;
