@@ -74,3 +74,13 @@
 // arr.toString(); // "1,2,3"
 // const arr = [1, 2, 3];
 // arr.toString();
+// function reverseString(str) {
+//   return str.split("").reverse().join("");
+// }
+// console.log(reverseString("string"));
+// Another way to reverse any string array or number.
+function reverseString(str) {
+  return [...String(str)].reverse().join("");
+}
+console.log(reverseString(1337));
+console.log(reverseString("stackoverflow"));
