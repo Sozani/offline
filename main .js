@@ -69,3 +69,8 @@
 // Arrow version of immediately invoked function version >= 6
 // (() => console.log("Hello!"))();
 //string tool not work below I will try toString;
+// const arr = [1, 2, 3];
+
+// arr.toString(); // "1,2,3"
+// const arr = [1, 2, 3];
+// arr.toString();
