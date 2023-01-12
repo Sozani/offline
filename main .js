@@ -118,3 +118,30 @@
 // console.print();
 // console.log(stack.pop());
 // console.log(stack.peek());
+// The way to apply Queue:
+class Queue {
+  constructor() {
+    this.items = [];
+  }
+  enqueue(element) {
+    this.items.push(element);
+  }
+  dequeue() {
+    this.items.shift();
+  }
+  isEmpty() {
+    return this.items.length === 0;
+  }
+  peek() {
+    if (!this.items.length === 0) {
+      return this.items[0];
+    }
+    return null;
+  }
+  size() {
+    return this.items.length;
+  }
+  print() {
+    console.log(this.items.toString());
+  }
+}
