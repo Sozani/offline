@@ -79,9 +79,21 @@
 // }
 // console.log(reverseString("string"));
 // Another way to reverse any string array or number.
-function reverseString(str) {
-  return [...String(str)].reverse().join("");
+// function reverseString(str) {
+//   return [...String(str)].reverse().join("");
+// }
+// console.log(reverseString(1337));
+// console.log(reverseString("stackoverflow"));
+// console.log(reverseString([1, 2, 3, 4]));
+
+class stack {
+  constructor() {
+    this.items = [];
+  }
+  push(element) {
+    this.items.push(element);
+  }
+  pop() {
+    return this.items.pop();
+  }
 }
-console.log(reverseString(1337));
-console.log(reverseString("stackoverflow"));
-console.log(reverseString([1, 2, 3, 4]));
