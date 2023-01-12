@@ -86,7 +86,7 @@
 // console.log(reverseString("stackoverflow"));
 // console.log(reverseString([1, 2, 3, 4]));
 // The way to apply stack:
-// class stack {
+// class Stack {
 //   constructor() {
 //     this.items = [];
 //   }
@@ -109,16 +109,17 @@
 //     console.log(this.items.toString());
 //   }
 // }
-// const stack = new stack();
+// const stack = new Stack();
 // console.log(stack.isEmpty());
 // stack.push(20);
 // stack.push(10);
 // stack.push(30);
 // console.log(stack.size());
-// console.print();
+// console.log(stack.print());
 // console.log(stack.pop());
 // console.log(stack.peek());
 // The way to apply Queue:
+// The class the first character have to capitial
 class Queue {
   constructor() {
     this.items = [];
