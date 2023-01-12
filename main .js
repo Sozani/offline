@@ -120,6 +120,7 @@
 // console.log(stack.peek());
 // The way to apply Queue:
 // The class the first character have to capitial
+// The new word after it the name of class and new is using to implement new class independed on the first class
 class Queue {
   constructor() {
     this.items = [];
