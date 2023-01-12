@@ -145,3 +145,11 @@ class Queue {
     console.log(this.items.toString());
   }
 }
+const queue = new Queue();
+console.log(queue.isEmpty());
+queue.enqueue(10);
+queue.enqueue(20);
+queue.enqueue(30);
+queue.print();
+console.log(queue.dequeue());
+console.log(queue.peek());
