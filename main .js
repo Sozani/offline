@@ -109,3 +109,9 @@ class stack {
     console.log(this.items.toString());
   }
 }
+const stack = new stack();
+console.log(stack.isEmpty());
+stack.push(20);
+stack.push(10);
+stack.push(30);
+console.log(stack.size());
